@@ -1,0 +1,38 @@
+
+[
+  {
+    "name": "Senso-ji",
+    "category": "culture",
+    "area": "Asakusa",
+    "estimated_cost": 0.0,
+    "duration_hours": 1.5
+  },
+  {
+    "name": "Tokyo National Museum",
+    "category": "culture",
+    "area": "Ueno",
+    "estimated_cost": 1000.0,
+    "duration_hours": 2.0
+  },
+  {
+    "name": "Tsukiji Outer Market",
+    "category": "food",
+    "area": "Tsukiji",
+    "estimated_cost": 1500.0,
+    "duration_hours": 1.5
+  },
+  {
+    "name": "Shibuya Crossing",
+    "category": "sightseeing",
+    "area": "Shibuya",
+    "estimated_cost": 0.0,
+    "duration_hours": 0.5
+  },
+  {
+    "name": "teamLab Planets",
+    "category": "art",
+    "area": "Toyosu",
+    "estimated_cost": 3600.0,
+    "duration_hours": 2.0
+  }
+]
