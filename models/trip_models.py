@@ -1,10 +1,18 @@
 from dataclasses import dataclass
 
 @dataclass
+class BudgetBreakdown:
+    accomodation: float | None = None
+    food: float | None = None
+    transportation: float | None = None
+    activities: float | None = None
+
+@dataclass
 class TripPreferences:
     destination: str
     duration_days: int
-    budget: float
+    total_budget: float
+    budget_breakdown: BudgetBreakdown | None = None
     interests: list[str]
     pace: str
 
