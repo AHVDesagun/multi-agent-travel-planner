@@ -12,9 +12,9 @@ class TripPreferences:
     destination: str
     duration_days: int
     total_budget: float
-    budget_breakdown: BudgetBreakdown | None = None
     interests: list[str]
     pace: str
+    budget_breakdown: BudgetBreakdown | None = None
 
 @dataclass
 class Attraction: 
