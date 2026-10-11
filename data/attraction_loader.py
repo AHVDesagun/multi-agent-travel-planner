@@ -5,7 +5,7 @@ from models.trip_models import Attraction
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 ATTRACTIONS_FILE = PROJECT_ROOT / "data" / "attractions.json"
 
-def load_attractions():
+def load_attractions() -> list[Attraction]:
     
     with ATTRACTIONS_FILE.open("r", encoding="utf-8") as file:
         attractions_data = json.load(file)
