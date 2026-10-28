@@ -33,10 +33,10 @@ class PlannedActivity:
 @dataclass
 class DayPlan:
     day_number: int
-    activities: list[str]
+    activities: list[PlannedActivity]
     
 @dataclass
 class Itinerary:
     destination: str
-    days: list[str]
+    days: list[DayPlan]
     
